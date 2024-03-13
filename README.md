@@ -23,6 +23,7 @@
 
 <div align="center">
   <h3>
-  <a href="https://mega.nz/folder/rkJQXRoI#w2UAo9quYIJSZnmEBqo_Jw">Download do arquivo executável</a>
+  <a href="https://mega.nz/folder/rkJQXRoI#w2UAo9quYIJSZnmEBqo_Jw">Download</a> <br>
+  <a href="https://youtu.be/bfQyuYacBGg"> Video Demo
   </h3>
 </div>
