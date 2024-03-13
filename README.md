@@ -20,3 +20,9 @@
 - Ensure compliance with Club Penguin's terms of service and rules.<br>
 - Fishomatic is designed to work only on the primary monitor. If you have multiple monitors, please ensure that Club Penguin is running on your primary monitor for Fishomatic to function properly.<br>
 - Any issues or improvements can be reported or contributed via GitHub.
+
+<div align="center">
+  <h3>
+  <a href="https://mega.nz/folder/rkJQXRoI#w2UAo9quYIJSZnmEBqo_Jw">Download do arquivo executável</a>
+  </h3>
+</div>
