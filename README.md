@@ -1,4 +1,4 @@
-# **Fishomatic: A Club Penguin Fishing Bot using Computer Vision**
+<h1 align="center"> Fishomatic: A Club Penguin Fishing Bot using Computer Vision </h1>
 
 <p align="center">Fishomatic is a bot designed to automate the fishing game in Club Penguin using computer vision.</p>
 
