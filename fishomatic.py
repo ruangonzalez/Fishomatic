@@ -8,12 +8,12 @@ pyautogui.alert("""             Pressione OK para começar a pescar!
 
 def end_game_actions():
     # Clique em receber moedas
-    collect_coins_pos = pyautogui.locateOnScreen('collectcoins.png', confidence=0.7)
+    collect_coins_pos = pyautogui.locateOnScreen('imagens/collectcoins.png', confidence=0.7)
     if collect_coins_pos is not None:
         pyautogui.click(collect_coins_pos)
         time.sleep(3)
     # Clique em "done"
-    done_pos = pyautogui.locateOnScreen('done.png', confidence=0.7)
+    done_pos = pyautogui.locateOnScreen('imagens/done.png', confidence=0.7)
     if done_pos is not None:
         pyautogui.click(done_pos)
         time.sleep(2)
@@ -48,7 +48,7 @@ play_y = 800
 
 while not keyboard.is_pressed('q'):
     try:
-        fish_pos = pyautogui.locateOnScreen('eyeball.png', region=(regiao_peixes), confidence=0.7)     
+        fish_pos = pyautogui.locateOnScreen('imagens/eyeball.png', region=(regiao_peixes), confidence=0.7)     
         if fish_pos is not None:
             pyautogui.moveTo(fish_pos) 
             pyautogui.moveTo(930,255)  
@@ -57,7 +57,7 @@ while not keyboard.is_pressed('q'):
     except ImageNotFoundException: 
         try:
             time.sleep(0.05) 
-            game_over_pos = pyautogui.locateOnScreen('game_over.png',region=(670, 270, 600, 650), confidence=0.5)
+            game_over_pos = pyautogui.locateOnScreen('imagens/game_over.png',region=(670, 270, 600, 650), confidence=0.5)
             if game_over_pos is not None:
                 end_game_actions()
             continue       
